@@ -21,7 +21,6 @@ def Figures():
         case figure.Square:
             print("you choosed square")
             a=int(input("enter a"))
-            b=int(input("enter b"))
             area=a**2
             print("-"*40)
             units(area,volume=0)
